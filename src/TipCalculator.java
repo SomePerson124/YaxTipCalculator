@@ -13,5 +13,14 @@ public class TipCalculator {
         int tipPercentage = scan.nextInt();
         scan.nextLine();
 
+        System.out.print("Enter a cost in dollars and cents: ");
+        double cost = scan.nextDouble();
+        double total = cost;
+        while (cost != -1.0) {
+            System.out.print("Enter a cost in dollars and cents: ");
+            cost = scan.nextDouble();
+            total += cost;
+        }
+
     }
 }
