@@ -1,6 +1,7 @@
 /*
 Author: Antonio Yax
-This class asks a user to input how many people are in their group, a tip percentage, and multiple costs. The
+This class asks a user to input how many people are in their group, a tip percentage, and multiple costs.
+Valuable information is then printed to the user.
 I learned how to round from here: https://stackoverflow.com/questions/13210491/math-round-java
  */
 
