@@ -54,7 +54,7 @@ public class TipCalculator {
         double totalCostAfterTip = total + totalTip;
         // calculates and/or prints valuable information for the user
         System.out.println("------------------------------------------------");
-        System.out.println("Total bill before tip: $" + total);
+        System.out.println("Total bill before tip: $" + Math.round(total * 100.0) / 100.0);
         System.out.println("Total Percentage: " + tipPercentage + "%");
         System.out.println("Total tip: $" + Math.round(totalTip * 100.0) / 100.0);
         System.out.println("Total bill with tip: $" + Math.round(totalCostAfterTip * 100.0) / 100.0);
